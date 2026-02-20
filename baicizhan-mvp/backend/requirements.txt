@@ -1,0 +1,7 @@
+fastapi==0.115.8
+uvicorn[standard]==0.34.0
+SQLAlchemy==2.0.38
+PyMySQL==1.1.1
+pydantic==2.11.9
+pydantic-settings==2.10.1
+python-multipart==0.0.20

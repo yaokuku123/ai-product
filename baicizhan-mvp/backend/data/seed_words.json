@@ -1,0 +1,82 @@
+[
+  {
+    "headword": "discern",
+    "phonetic": "/dɪˈsɜːrn/",
+    "pos": "v.",
+    "meaning_zh": "辨别；察觉出",
+    "meaning_en": "to recognize or find out",
+    "example_en": "It is sometimes hard to discern truth from rumor.",
+    "example_zh": "有时很难分辨真相与谣言。",
+    "etymology": "dis(分开)+cern(区别) → 分开搞清 → 辨别",
+    "options": [
+      {"text": "辨别；察觉出", "correct": true},
+      {"text": "割让（领土）；放弃", "correct": false},
+      {"text": "代替；代用品", "correct": false},
+      {"text": "权威；威信", "correct": false}
+    ]
+  },
+  {
+    "headword": "concession",
+    "phonetic": "/kənˈseʃn/",
+    "pos": "n.",
+    "meaning_zh": "让步；特许；承认",
+    "meaning_en": "something that you allow or agree to",
+    "example_en": "The company made a concession and lowered prices.",
+    "example_zh": "公司作出让步，降低了价格。",
+    "etymology": "con(共同)+cess(走)+ion → 共同走一步 → 让步",
+    "options": [
+      {"text": "让步；特许；承认", "correct": true},
+      {"text": "自信；信念", "correct": false},
+      {"text": "拥堵；阻塞", "correct": false},
+      {"text": "构思；概念", "correct": false}
+    ]
+  },
+  {
+    "headword": "opaque",
+    "phonetic": "/oʊˈpeɪk/",
+    "pos": "adj.",
+    "meaning_zh": "不透明的；难懂的",
+    "meaning_en": "not able to be seen through",
+    "example_en": "The glass is opaque, so you cannot see inside.",
+    "example_zh": "玻璃是不透明的，所以你看不见里面。",
+    "etymology": "op(不)+aqu(水)+e → 不像水一样透明 → 不透明",
+    "options": [
+      {"text": "不透明的；难懂的", "correct": true},
+      {"text": "透明的；清楚的", "correct": false},
+      {"text": "轻微的；小的", "correct": false},
+      {"text": "锋利的；尖的", "correct": false}
+    ]
+  },
+  {
+    "headword": "retention",
+    "phonetic": "/rɪˈtenʃn/",
+    "pos": "n.",
+    "meaning_zh": "保留；记忆力；留存",
+    "meaning_en": "the ability to keep something",
+    "example_en": "Spaced repetition improves retention.",
+    "example_zh": "间隔重复能提升记忆留存。",
+    "etymology": "re(再)+ten(抓住)+tion → 再抓住 → 保留",
+    "options": [
+      {"text": "保留；记忆力；留存", "correct": true},
+      {"text": "释放；放出", "correct": false},
+      {"text": "反对；抵制", "correct": false},
+      {"text": "放松；休息", "correct": false}
+    ]
+  },
+  {
+    "headword": "stimulus",
+    "phonetic": "/ˈstɪmjələs/",
+    "pos": "n.",
+    "meaning_zh": "刺激；激励",
+    "meaning_en": "something that encourages activity",
+    "example_en": "A reward can be a stimulus to keep studying.",
+    "example_zh": "奖励可以成为持续学习的刺激。",
+    "etymology": "stim(刺)+ulus(工具) → 刺激物",
+    "options": [
+      {"text": "刺激；激励", "correct": true},
+      {"text": "惩罚；处罚", "correct": false},
+      {"text": "抱怨；不满", "correct": false},
+      {"text": "同情；怜悯", "correct": false}
+    ]
+  }
+]
