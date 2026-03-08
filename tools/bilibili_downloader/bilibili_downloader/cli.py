@@ -1,5 +1,5 @@
 import click
-from core import BilibiliProcessor
+from .core import BilibiliProcessor
 
 @click.command()
 @click.argument('url')

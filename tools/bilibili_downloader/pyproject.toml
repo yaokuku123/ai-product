@@ -21,3 +21,6 @@ dependencies = [
 
 [project.scripts]
 bilibili-text = "bilibili_downloader.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
