@@ -20,7 +20,7 @@ class BilibiliProcessor:
             self.whisper_instance = WhisperModel(
                 self.whisper_model,
                 device="auto",
-                compute_type="int8"
+                compute_type="float16"
             )
 
     def download_subtitle(self, url: str, output_dir: str = None) -> str:
