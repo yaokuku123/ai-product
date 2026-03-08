@@ -164,3 +164,4 @@ Thumbs.db
 *.swo
 
 .claude/
+.result/

@@ -1,0 +1,11 @@
+# 通用视频下载工具依赖
+yt-dlp>=2026.3.3
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+click>=8.3.1
+lxml>=4.9.0
+
+# 文件类型检测库（Windows 系统可能需要额外安装）
+# 对于 Windows 用户，可能需要手动安装 libmagic
+# 如果安装失败，可以尝试: pip install python-magic-bin
+python-magic>=0.4.27

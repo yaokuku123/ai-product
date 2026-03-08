@@ -100,11 +100,12 @@ class BilibiliProcessor:
         segments, _ = self.whisper_instance.transcribe(audio_path, language='zh')
         return '\n'.join([segment.text.strip() for segment in segments])
 
-    def process_video(self, url: str, output_file: str = None) -> str:
+    def process_video(self, url: str, output_file: str = None, audio_output_dir: str = None) -> str:
         """
         处理B站视频：优先下载字幕，没有字幕则下载音频转文字
         :param url: B站视频链接
         :param output_file: 输出文本文件路径，如果为None则只返回文本
+        :param audio_output_dir: 音频文件保存目录，如果为None则使用临时目录并自动删除
         :return: 识别的文本内容
         """
         # 首先尝试下载字幕
@@ -140,11 +141,14 @@ class BilibiliProcessor:
         else:
             print("没有找到字幕，正在下载音频...")
             # 下载音频
-            audio_path = self.download_audio(url)
+            audio_path = self.download_audio(url, output_dir=audio_output_dir)
             print("正在将音频转换为文本...")
             text = self.audio_to_text(audio_path)
-            # 清理临时音频文件
-            os.unlink(audio_path)
+            # 如果没有指定音频输出目录，清理临时音频文件
+            if audio_output_dir is None:
+                os.unlink(audio_path)
+            else:
+                print(f"音频文件已保存到: {audio_path}")
 
         # 如果指定了输出文件，保存到文件
         if output_file:
